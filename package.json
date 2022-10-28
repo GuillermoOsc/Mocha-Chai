@@ -1,0 +1,21 @@
+{
+  "name": "m-c",
+  "version": "1.0.0",
+  "description": "Proyecto introductorio con Mocha y Chai",
+  "main": "core.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/_mocha || exit 0"
+  },
+  "keywords": [
+    "js",
+    "mocha",
+    "chai",
+    "testing"
+  ],
+  "author": "Guillermo Oscar",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  }
+}
